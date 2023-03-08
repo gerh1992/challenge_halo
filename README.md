@@ -1,5 +1,5 @@
 # Challenge halo
-This repo contains a simple api server in front of redis, [design instructions](instructions.txt)
+This repo contains a simple api server to interact with a message queue that uses redis, [design instructions](instructions.txt)
 
 ### Prerequisites
 [Docker](https://docs.docker.com/engine/install/)
