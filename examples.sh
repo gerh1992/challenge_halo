@@ -7,7 +7,7 @@ curl -X POST http://localhost:5000/api/queue/pop \\
     --verbose -d '{"key": "some_key"}'
 
 # Sample request to count endpoint
-url -X POST http://localhost:5000/api/queue/count --verbose
+curl -X POST http://localhost:5000/api/queue/count --verbose
 
 # Sample request to health endpoint
-url http://localhost:5000/api/queue/health --verbose
+curl http://localhost:5000/api/queue/health --verbose

@@ -7,9 +7,9 @@ This repo contains a simple api server in front of redis, [design instructions](
 ### Installation
 1. Clone the repo
 ```bash
-git clone github.com
+git clone git@github.com:gerh1992/challenge_halo.git
 ```
-2. Spin up the application && redis
+2. Spin up the application & redis
 ```bash
 make run
 ```

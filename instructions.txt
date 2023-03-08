@@ -50,8 +50,3 @@ Bonus, they are optional but highly valued:
   - Implement some tests to verify the correct operation.
   - Add functionality to the api and queue. (Ex: api authentication, logs, batch pop and push, metrics, you name it)
   - Redis health status endpoint.
-
-
-
-# FALTA
-docker, make, tests
