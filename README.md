@@ -9,7 +9,11 @@ This repo contains a simple api server in front of redis, [design instructions](
 ```bash
 git clone git@github.com:gerh1992/challenge_halo.git
 ```
-2. Spin up the application & redis
+2. Change directory to the application code
+```bash
+cd challenge_halo
+```
+3. Spin up the application & redis
 ```bash
 make run
 ```
