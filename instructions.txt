@@ -1,0 +1,57 @@
+Challenge - Docker + Redis + API
+
+The challenge consists of implementing a message queue using Redis and also implementing an API (it can be Flask) that allows us to abstract ourselves.
+This API must be made up of 3 methods (endpoints) that must comply with the following contract:
+
+-Pop:
+    - Endpoint: /api/queue/pop
+    - Method: POST
+    - Response:
+        - Status code: 200
+        - Body: 
+            {
+              'status': 'ok',
+              'message': <msg>
+            }
+
+-Push:
+    - Endpoint: /api/queue/push
+    - Method: POST
+    -Body: <msg>
+    - Response:
+        - Status code: 200
+          - Body:
+              {
+              'status': 'ok'
+              }
+
+- Number of messages:
+    - Endpoint: /api/queue/count
+    - Method: GET
+    - Response:
+        - Status code: 200
+        - Body:
+            {
+            'status': 'ok',
+            'count': <count>
+            }
+
+Requirements:
+
+  - Use docker.
+  - Documentation of how it was implemented, if there are credentials, how to run it, details of implemented improvements.
+
+Clarifications:
+
+  - It is not necessary to develop the applications, you can take a template and apply it to the challenge.
+
+Bonus, they are optional but highly valued:
+
+  - Implement some tests to verify the correct operation.
+  - Add functionality to the api and queue. (Ex: api authentication, logs, batch pop and push, metrics, you name it)
+  - Redis health status endpoint.
+
+
+
+# FALTA
+docker, make, tests
